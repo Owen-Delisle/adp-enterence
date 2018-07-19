@@ -1,0 +1,55 @@
+h1 {
+  font-size: 5em;
+  font-family: Courier;
+}
+
+h3 {
+  font-size: 3em;
+  font-family: Courier;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: top 2px;
+}
+
+.scoreBoard {
+  width: 14em;
+  position: relative;
+}
+
+.score {
+  position: relative;
+  float: right;
+  margin-top: -9.4em;
+}
+
+.finalScoreBoard {
+  width: 27em;
+  position: relative;
+}
+
+.endScore {
+  position: relative;
+  float: right;
+  margin-top: -9.4em;
+  color: #4CAF50;
+}
+
+.pass {
+  width: 14em;
+  position: relative;
+}
+
+.endGrade {
+  position: relative;
+  float: right;
+  margin-top: -9.4em;
+}
