@@ -11,7 +11,6 @@ var percent = 0;
 function loadJson() {
 $.getJSON(url, function(text) {
         json = text['quizzes'];
-        console.log(json);
         localStorage.setItem("json", JSON.stringify(json));
     });
 }
@@ -62,7 +61,6 @@ function addToRound(button) {
     }
 
     if(round < 2){
-        // console.log(round); 
         round++;
         setTimeout(function(){
         loadQuestions();
@@ -75,8 +73,6 @@ function addToRound(button) {
             window.location = '../html/end-page.html';
         }, 2000);
     }
-
-    console.log(clicks);
     clicks++;
 }
 
