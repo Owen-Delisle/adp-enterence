@@ -81,7 +81,8 @@ function addToRound(button) {
 }
 
 function getScore() {
-    document.getElementById("finalScore").innerHTML = localStorage.getItem("finalScore");
+    var score = localStorage.getItem("finalScore")
+    document.getElementById("finalScore").innerHTML = score;
     if((score / 3) * 100 > 50) {
         document.getElementById("grade").innerHTML = "Pass";
     } else {
